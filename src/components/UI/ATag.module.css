@@ -1,0 +1,9 @@
+.link {
+  margin-left: 0.5rem;
+  color: #31d6d6;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

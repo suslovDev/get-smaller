@@ -1,0 +1,15 @@
+.wrap {
+  box-sizing: border-box;
+  width: 90%;
+  min-height: 80%;
+  margin: auto auto;
+  padding: 10px;
+  padding-bottom: 50px;
+  background: rgba(205, 205, 205, 0.25);
+  border-radius: 20px;
+}
+.eaten-list {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}

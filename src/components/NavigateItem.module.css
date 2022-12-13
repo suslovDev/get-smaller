@@ -1,0 +1,67 @@
+.navigate-item {
+  display: block;
+  width: 30px;
+  height: 40px;
+  background-size: 25px !important;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+.navigate-item:hover {
+  border-color: gray;
+}
+.current {
+  border-bottom: 1px solid #67cfcf !important;
+}
+.boom {
+  animation: small-to-big 1.5s;
+}
+@keyframes small-to-big {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  5% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  15% {
+    padding-bottom: 5px;
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-50%);
+  }
+  40% {
+    padding-bottom: 6px;
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  70% {
+    padding-bottom: 7px;
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    padding-bottom: 8px;
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    padding-bottom: 9px;
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    padding-bottom: 9px;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+.screen-up {
+  flex-basis: 50%;
+  background: url("../../public/img/bg1.png") no-repeat center;
+  background-size: contain;
+}
+.screen-down {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 37px;
+  background: #fff;
+  border-radius: 30px 30px 12px 12px;
+}
+.screen-down__title {
+  color: #3e423a;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+}
+.screen-down__description {
+  width: 95%;
+  color: #9d9d9d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.ej {
+  position: absolute;
+  font-size: 35px;
+}
+.log-out {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20% !important;
+  background: #e5bac9 !important;
+}
+@media screen and (max-width: 481px) {
+  .screen-down {
+    border-radius: 0;
+  }
+}

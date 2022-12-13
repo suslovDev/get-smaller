@@ -1,0 +1,26 @@
+.screen-congrats__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 130px;
+}
+.screen-congrats__action {
+  padding: 63px;
+}
+.screen-congrats__head--title {
+  margin: 10px;
+  padding: 0 63px;
+  color: #31d6d6;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+}
+.screen-congrats__head--description {
+  padding: 0 63px;
+  color: #9d9d9d;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}

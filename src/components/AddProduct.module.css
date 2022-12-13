@@ -1,0 +1,23 @@
+.add-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.add-product__head {
+  color: #585757;
+  font-size: 22px;
+}
+.add-product__action {
+  width: 100%;
+  padding-bottom: 70px;
+}
+@media screen and (max-width: 394px) {
+  .add-product {
+    justify-content: flex-start;
+  }
+  .add-product__head {
+    padding-top: 10px;
+  }
+}

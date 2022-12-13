@@ -1,0 +1,11 @@
+.add-to-favorite {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: url("/public/img/btn-heart-x2.png") center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}

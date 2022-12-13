@@ -1,0 +1,5 @@
+.form {
+  width: calc(100% - 37px - 37px);
+  padding: 34px;
+  padding-bottom: 0;
+}

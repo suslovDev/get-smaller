@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 53px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background: #67cfcf;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button:hover {
+  filter: brightness(110%);
+}
